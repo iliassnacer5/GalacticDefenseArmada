@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galactic Defense Armada</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background: #000;
+            color: #0ff;
+            font-family: 'Orbitron', sans-serif;
+        }
+
+        canvas {
+            display: block;
+        }
+
+        #ui {
+            text-shadow: 0 0 10px #0ff;
+            background: rgba(0, 20, 40, 0.7);
+            padding: 20px;
+            border: 1px solid #0ff;
+            border-radius: 10px;
+        }
+    </style>
+    <script src="libraries/p5.min.js"></script>
+    <script src="Vehicule.js"></script>
+    <script src="Station.js"></script>
+    <script src="Asteroid.js"></script>
+    <script src="ShieldWall.js"></script> <!-- NEW -->
+    <script src="Laser.js"></script> <!-- NEW -->
+    <script src="Interceptor.js"></script>
+    <script src="Drone.js"></script>
+    <script src="RepairShip.js"></script>
+    <script src="Enemy.js"></script>
+    <script src="Missile.js"></script>
+    <script src="Hero.js"></script>
+    <script src="sketch.js"></script>
+</head>
+
+<body>
+    <div id="ui" style="position: absolute; top: 10px; left: 10px; pointer-events: none;">
+        <h1>GALACTIC DEFENSE ARMADA</h1>
+        <p>Protect the station from the alien waves.</p>
+        <p>Debug Mode: Press 'D'</p>
+    </div>
+</body>
+
+</html>
